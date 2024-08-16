@@ -1,0 +1,457 @@
+@import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
+@import url(https://db.onlinewebfonts.com/c/643121b5d2cc9943eff9b59054cc29ba?family=DIN+Next+Rounded+LT+W01+Light);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 100%; */
+    background-color: white;
+}
+.main{
+     position:fixed;
+     width: 100%;
+ top: 0;
+ z-index: 3553;
+    
+     }
+#name1
+     {
+       margin-left: 200px;
+       margin-top: 30px;
+       cursor: pointer;
+       text-decoration: none;
+       color: black;
+     }
+#name2{
+         margin-left: 230px;
+         margin-top: 10px;
+         letter-spacing: 2px;
+         font-style: normal;
+         font-weight: 200px;
+         cursor: pointer;
+     }
+ 
+ .nav-item .nav-link{
+    color: black;
+    font-family: "DIN Next Rounded LT W01 Light";
+}
+
+#navbarText ul li a:hover{
+    color: rgb(80, 137, 139);
+} 
+
+#navbarText ul li a{
+    position: relative;
+    /* z-index: index auto; */
+}
+  
+    .image1{
+       
+       position: fixed;
+        z-index: -1; 
+      }
+
+   .text{
+      
+       position: relative;
+       /* bottom: 60px;
+      */
+       padding-top: 160px;
+        text-align: center; 
+        z-index: -1; 
+
+        
+   }
+   #text1{
+       font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+       letter-spacing: 0.18em;
+       line-height: 1.4em;
+       font-size: 17px;
+   }
+   #text2{
+      
+       font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+       line-height: 1em;
+      letter-spacing: normal;
+   font-size: 130px;
+   vertical-align: baseline;
+   }
+   #text3{
+       font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+       line-height: normal;
+ 
+   font-size: 23px;
+   letter-spacing: 0.10em;
+   color: rgba(0, 0, 0, 0.615);
+   }
+#text4{
+   border: 1px solid black;
+   height: 40px;
+   width: 120px;
+   background-color: black;
+   margin-left: 700px;
+   padding-top: 10px;
+   cursor: pointer;
+   }
+   #text4 a{
+       font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+       color: white;
+       text-align: center;
+       text-decoration: none;
+       
+   }
+   /* #text4 a:hover{
+       background-color: white;
+      
+   } */
+  #text4:hover{
+    background-color: white;
+       color: black;
+    }
+    .about
+    {
+    
+       /* border: 1px solid red; */
+       position: relative;
+        background-color: white;
+        margin-top: 200px;
+        
+        z-index: -1;
+    }
+    #text5{
+        border: 1px solid black;
+        height: 80px;
+        width: 180px;
+        background-color: black;
+        padding: 10px;
+        cursor: pointer;
+        }
+        #text5 a{
+            font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            
+        }
+        #text5:hover,a:hover{
+            background-color: white;
+           
+        }
+        #text5 a:hover{
+           
+            color: black;
+         }
+
+         #text6{
+            border: 1px solid black;
+           
+            background-color:white;
+           
+            padding: 10px; 
+            cursor: pointer;
+            }
+            #text6 a{
+                font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                color:black;
+                text-align: center;
+                text-decoration: none;
+                
+            }
+           
+            .image2
+            {
+            
+             position:fixed;
+              
+               width: 100%;
+              
+          
+            }  
+            .image3
+            {
+               position:fixed;
+               
+               width: 100%;
+              }  
+            .help
+            {
+                /* border: 1px solid black; */
+                background-image: url("https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1225,h_804,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg" 
+                
+                );
+                background-size:cover;
+                width: 100%;
+                height: 800px;
+                position: relative;
+                /* padding-top: 160px; */
+                z-index: -1;
+                
+               
+            }
+            .flex-container{
+                /* position: relative;
+                z-index: -1; */
+                display: flex;
+              justify-content: center; 
+                align-self: center;
+               
+            }
+            .flex-container > div{
+                /* position: relative;
+                z-index: -1; */
+                border: 5px solid black;
+                /* background-color: beige; */
+              padding: 10px;
+                width: 275px;
+                height: 350px;
+                margin:20px;
+                text-align: center;
+                /* line-height: 60px; */
+                font-size: 15px;
+
+            }
+
+            #text7{
+                border: 1px solid black;
+                height: 50px;
+                width: 100px;
+                background-color: black;
+                padding: 10px;
+                cursor: pointer;
+                margin-top: 90px;
+                margin-left: 70px;
+                }
+                #text7 a{
+                    font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                    color: white;
+                   text-decoration: none;
+                }
+                #text8{
+                    border: 1px solid black;
+                    height: 50px;
+                    width: 100px;
+                    background-color: black;
+                    padding: 10px;
+                    cursor: pointer;
+                    margin-top: 65px;
+                    margin-left: 65px;
+                    }
+                    #text8 a{
+                        font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                        color: white;
+                       text-decoration: none;
+                    }
+
+                    #text9{
+                        border: 1px solid black;
+                        height: 50px;
+                        width: 100px;
+                        background-color: black;
+                        padding: 10px;
+                        cursor: pointer;
+                        margin-top: 10px;
+                        margin-left: 65px;
+                        }
+                        #text9 a{
+                            font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                            color: white;
+                           text-decoration: none;
+                        }
+
+                        .text10{
+                            border: 1px solid black;
+                            height: 40px;
+                            width: 180px;
+                            background-color: black;
+                            padding: 5px;
+                            cursor: pointer;
+                            margin-top: 60px;
+                            margin-left: 65px;
+                            }
+                            .text10 a{
+                                font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                                color: white;
+                               text-decoration: none;
+                            }
+                            .text10 a:hover{
+                                background-color: white;
+                                color: black;
+                            }
+
+                            .contact{
+                                /* border: 1px solid black; */
+                                height: 600px;
+                                width:100%;
+                                background-color: #5f9ea0;
+                              }
+                            .inputbox{
+                                border: 3px solid black;
+                                background-color: transparent;
+                            }
+                            .submitbox{
+                                margin-left:250px;
+                                background-color: black;
+                                color: white;
+                            }
+
+                            .submitbox:hover{
+                                color:black;
+                                background-color: white;
+                            }
+                            .info a:hover{
+                                background-color: transparent;
+                            }
+                            .list li{
+                                display: inline;
+                              
+                            }
+
+                            .list li a
+                            {
+                              border-bottom: 2px solid black;
+                              /* border-collapse: collapse; */
+                              /* position:relative;
+                              z-index: 1;
+                              pointer-events:visible; */
+                              text-decoration: none;
+                              padding: 10px;
+                              background-color: transparent;
+                               padding-bottom: 10px;
+                               font-size: 18px;
+                               color: black;
+                            }
+                      .list a:hover
+                      {
+                        color: #5f9ea0;
+                        border-bottom: 2px solid #5f9ea0;
+                      }
+                      .list a.active
+                      {
+                        
+                        border-bottom: 2px solid #5f9ea0;
+                      } 
+
+ /* .blog{
+    position: relative;
+                         
+    z-index: -1;
+}  */
+/* .guides{
+    position: relative;
+                         
+    z-index: -1;
+}*/
+                       .plans                     {
+                        
+                         
+                          position: relative;
+                         
+                          z-index: -1;
+                          
+                         
+                      } 
+
+                      #textp1{
+                        
+                        font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+                        line-height: 0.9em;
+                       letter-spacing: 0.09em;
+                       font-size: 50px;
+                       font-weight: bolder;
+                    text-align: center;
+                    }
+
+
+                    #textp2{
+                        font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+                        line-height: normal;
+                    
+                    font-size: 14px;
+                    letter-spacing: 0.10em;
+                    text-align: center;
+                    color: rgba(0, 0, 0, 0.615);
+                    }
+
+
+                    .box-on-border {
+                        position: absolute;
+                        border: 2px solid black;
+                        width: 100px;
+                        height: 30px;
+                        background-color: rgb(80, 137, 139);
+                        top: 5px; /* Half the height of the box */
+                        left: 50%; /* Center horizontally */
+                        transform: translateX(-50%);
+                    }
+
+                    #text7p{
+                        border: 1px solid black;
+                        height: 40px;
+                        width: 140px;
+                        background-color: black;
+                        padding: 10px;
+                        cursor: pointer;
+                        margin-top: 30px;
+                        margin-left: 50px;
+                        }
+                        #text7p a{
+                            font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                            color: white;
+                           text-decoration: none;
+                        }
+
+                         #text7p a:hover{
+                           background-color: rgba(0, 0, 0, 0);
+                        } 
+
+                        #text8p{
+                            border: 1px solid black;
+                            height: 40px;
+                            width: 140px;
+                            background-color: black;
+                            padding: 10px;
+                            cursor: pointer;
+                            margin-top: 35px;
+                            margin-left: 50px;
+                            }
+                            #text8p a{
+                                font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                                color: white;
+                               text-decoration: none;
+                            }
+    
+                             
+                            #text8p a:hover{
+                               background-color: rgba(0, 0, 0, 0);
+                            }
+
+                            #text9p{
+                                border: 1px solid black;
+                                height: 40px;
+                                width: 140px;
+                                background-color: black;
+                                padding: 10px;
+                                cursor: pointer;
+                                margin-top: 35px;
+                                margin-left: 50px;
+                                }
+                                #text9p a{
+                                    font-family: avenir-lt-w01_85-heavy1475544, sans-serif;  
+                                    color: white;
+                                   text-decoration: none;
+                                }
+        
+                                #text9p a:hover{
+                                   background-color: rgba(0, 0, 0, 0);
+                                }
+
+                                .section{
+                                    display: none;
+                                }
+                                #section1
+                                {
+                                    display: block;
+                                } 

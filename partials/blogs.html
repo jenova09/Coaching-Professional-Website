@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/partials/webpage.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <!-- Font -->
+    <link href="https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold" rel="stylesheet">
+    <!-- Icon -->
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        .container{
+           border: 1px solid black;
+           width: 950px;
+           height: 370px;
+           background-color: white;
+           position: relative;
+        }
+
+        .pagination {
+  display: inline-block;
+  
+}
+.txt p:hover{
+    color: rgb(69, 140, 143);
+    cursor: pointer;
+}
+.pagination a {
+  color: black;
+    padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+    /* color: rgb(80, 137, 139); */
+    cursor: pointer;
+}
+
+   .hidden{
+    display: none;
+   }
+  
+   </style>
+    
+    </style>
+</head>
+<body>
+    
+    <div class="blog" id="blogs">
+        <div class="image3">
+            <img src="https://static.wixstatic.com/media/84770f_62bea82dec60407d81320c967a003c1f~mv2_d_5468_2742_s_4_2.jpg/v1/fill/w_1519,h_623,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_62bea82dec60407d81320c967a003c1f~mv2_d_5468_2742_s_4_2.jpg" 
+            alt="">
+        </div>
+
+        <!-- <div class="container" style="position: relative;"> -->
+            <div class="head" style="position: relative; padding: 100px;" >
+               <h1 style="margin-left: 300px;">___</h1> <br>
+               <h1 style="margin-left: 300px;">THOUGHTS & <br> NOTES</h1><br>
+             </div> 
+
+    <div ng-controller="blogsCtrl">
+             <!-- Section1 Start-->
+            <!-- <div class="section" id="section1" > -->
+                <div ng-class="{'hidden': !isDiv1Visible}" >
+             <div class="container active"  style="bottom: 40px;">
+                    <div class="row">
+                        <div class="col" style="padding: 5px;">
+                            <img src="https://static.wixstatic.com/media/54e5b921fdf54a1db3802e905a8c53f6.jpg/v1/fill/w_480,h_360,fp_0.50_0.50,q_90,enc_auto/54e5b921fdf54a1db3802e905a8c53f6.jpg"
+                         alt="">
+                        </div>
+               
+                        <div class="col" style="padding:20px ">
+                            <img src="https://img.icons8.com/?size=50&id=7819&format=png&color=737373" alt="">
+                            <span style="font-size: 12px;">Admin  </span><span style="font-size: 12px;">Jun 3, 2023- 1 min</span>
+                            <div class="txt"><p style="font-size: 28px; font-style: bold;">10 tips for relaxation </p>
+                            <p style="font-size: 16px;"> Create a blog post subtitle that summarizes your post in a few short,
+                             punchy sentences and entices your audience to continue reading....</p></div><br><br><br>
+                             <hr>
+                             <span style="font-size: 12px;">0 views </span> &nbsp&nbsp&nbsp <span style="font-size: 12px;"> 0 comments</span>
+                             <span style="font-size: 12px;float: right;" >14<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#EA3323"><path d="m480-144-50-45q-100-89-165-152.5t-102.5-113Q125-504 110.5-545T96-629q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51.5 89q-37.5 49-103 113.5T528-187l-48 43Zm0-97q93-83 153-141.5t95.5-102Q764-528 778-562t14-67q0-59-40-99t-99-40q-35 0-65.5 14.5T535-713l-35 41h-40l-35-41q-22-26-53.5-40.5T307-768q-59 0-99 40t-40 99q0 33 13 65.5t47.5 75.5q34.5 43 95 102T480-241Zm0-264Z"/></svg></span>
+                       </div>
+                   </div>
+             </div>
+                    <div class="container" style="bottom: 40px;">
+                        <div class="row">
+                            <div class="col" style="padding: 5px;">
+                                <img src="https://static.wixstatic.com/media/c22c23_28bfea37ec5b49f3bc889ea5a56c4e85~mv2_d_5600_3495_s_4_2.jpg/v1/fill/w_925,h_578,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_28bfea37ec5b49f3bc889ea5a56c4e85~mv2_d_5600_3495_s_4_2.jpg" 
+                                alt="" height="350px" width="475px">
+                        
+                               
+                            </div>
+                       
+                            <div class="col" style="padding:20px ">
+                                <img src="https://img.icons8.com/?size=50&id=7819&format=png&color=737373" alt="">
+                                <span style="font-size: 12px;">Admin  </span><span style="font-size: 12px;">Jun 3, 2023- 1 min</span>
+                                <div class="txt"><p style="font-size: 28px; font-style: bold;">Why taking action creates <br>success</p>
+        
+                                   <p style="font-size: 16px;"> Create a blog post subtitle that summarizes your post in a few short,
+                                     punchy sentences and entices your audience to continue reading....</p></div><br>
+                                     <hr>
+                                     <span style="font-size: 12px;">0 views </span> &nbsp&nbsp&nbsp <span style="font-size: 12px;"> 0 comments</span>
+                                     <span style="font-size: 12px;float: right;" >8<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#EA3323"><path d="m480-144-50-45q-100-89-165-152.5t-102.5-113Q125-504 110.5-545T96-629q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51.5 89q-37.5 49-103 113.5T528-187l-48 43Zm0-97q93-83 153-141.5t95.5-102Q764-528 778-562t14-67q0-59-40-99t-99-40q-35 0-65.5 14.5T535-713l-35 41h-40l-35-41q-22-26-53.5-40.5T307-768q-59 0-99 40t-40 99q0 33 13 65.5t47.5 75.5q34.5 43 95 102T480-241Zm0-264Z"/></svg></span>
+                            </div>
+                        </div>
+                     </div>
+            </div>  
+              <!-- Section1 End-->
+            
+             <!-- Section2 Start -->
+             <!-- <div class="section" id="section2"> -->
+                <div ng-class="{'hidden': !isDiv2Visible}" >
+                <div class="container" >
+                   <div class="row">
+                       <div class="col" style="padding: 5px;">
+                          <img src=https://static.wixstatic.com/media/1522a833a6284305b35a88a31bd27f79.jpg/v1/fill/w_480,h_360,fp_0.50_0.50,q_90,enc_auto/1522a833a6284305b35a88a31bd27f79.jpg>
+                       </div>
+                  
+                       <div class="col" style="padding:20px ">
+                           <img src="https://img.icons8.com/?size=50&id=7819&format=png&color=737373" alt="">
+                           <span style="font-size: 12px;">Admin  </span><span style="font-size: 12px;">Jun 3, 2023- 1 min</span>
+                           <div class="txt"><p style="font-size: 28px; font-style: bold;">Time for a change </p>
+                           <p style="font-size: 16px;"> Create a blog post subtitle that summarizes your post in a few short,
+                                punchy sentences and entices your audience to continue reading....</p></div><br><br><br>
+                                <hr>
+                                <span style="font-size: 12px;">0 views </span> &nbsp&nbsp&nbsp <span style="font-size: 12px;"> 0 comments</span>
+                                <span style="font-size: 12px;float: right;" >2<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#EA3323"><path d="m480-144-50-45q-100-89-165-152.5t-102.5-113Q125-504 110.5-545T96-629q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51.5 89q-37.5 49-103 113.5T528-187l-48 43Zm0-97q93-83 153-141.5t95.5-102Q764-528 778-562t14-67q0-59-40-99t-99-40q-35 0-65.5 14.5T535-713l-35 41h-40l-35-41q-22-26-53.5-40.5T307-768q-59 0-99 40t-40 99q0 33 13 65.5t47.5 75.5q34.5 43 95 102T480-241Zm0-264Z"/></svg></span>
+                          </div>
+                       </div>
+                </div>
+                       <div class="container" style="margin-top: 0px;">
+                           <div class="row">
+                               <div class="col" style="padding: 5px;">
+                                   <img src=https://static.wixstatic.com/media/5cb24728abef45dabebe7edc1d97ddd2.jpg/v1/fill/w_480,h_360,fp_0.50_0.50,q_90,enc_auto/5cb24728abef45dabebe7edc1d97ddd2.jpg height="350px" width="475px">
+                           
+                                  
+                               </div>
+                          
+                               <div class="col" style="padding:20px ">
+                                   <img src="https://img.icons8.com/?size=50&id=7819&format=png&color=737373" alt="">
+                                   <span style="font-size: 12px;">Admin  </span><span style="font-size: 12px;">Jun 3, 2023- 1 min</span>
+                                   <div class="txt"><p style="font-size: 28px; font-style: bold;">Getting a grasp on adventure</p>
+           
+                                      <p style="font-size: 16px;"> Create a blog post subtitle that summarizes your post in a few short,
+                                        punchy sentences and entices your audience to continue reading....</p></div><br><br><br>
+                                        <hr>
+                                        <span style="font-size: 12px;">0 views </span> &nbsp&nbsp&nbsp <span style="font-size: 12px;"> 0 comments</span>
+                                        <span style="font-size: 12px;float: right;" >2<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#EA3323"><path d="m480-144-50-45q-100-89-165-152.5t-102.5-113Q125-504 110.5-545T96-629q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51.5 89q-37.5 49-103 113.5T528-187l-48 43Zm0-97q93-83 153-141.5t95.5-102Q764-528 778-562t14-67q0-59-40-99t-99-40q-35 0-65.5 14.5T535-713l-35 41h-40l-35-41q-22-26-53.5-40.5T307-768q-59 0-99 40t-40 99q0 33 13 65.5t47.5 75.5q34.5 43 95 102T480-241Zm0-264Z"/></svg></span>
+                               </div>
+                           </div>
+                        </div>
+   
+               </div>  
+       <!-- Section2 End-->
+
+<!-- Section3 Start-->
+<!-- <div class="section" id="section3" > -->
+    <div ng-class="{'hidden': !isDiv3Visible}" >
+    <div class="container" >
+           <div class="row">
+               <div class="col" style="padding: 5px;">
+                   <img src=https://static.wixstatic.com/media/c78d05b79ede429fb77c9d8ec4443b93.jpg/v1/fill/w_480,h_360,fp_0.50_0.50,q_90,enc_auto/c78d05b79ede429fb77c9d8ec4443b93.jpg>
+               </div>
+      
+               <div class="col" style="padding:20px ">
+                   <img src="https://img.icons8.com/?size=50&id=7819&format=png&color=737373" alt="">
+                   <span style="font-size: 12px;">Admin  </span><span style="font-size: 12px;">Jun 3, 2023- 1 min</span>
+                   <div class="txt"><p style="font-size: 28px; font-style: bold;">5 secrets to finding happiness</p>
+                   <p style="font-size: 16px;"> Create a blog post subtitle that summarizes your post in a few short,
+                    punchy sentences and entices your audience to continue reading....</p></div><br><br><br>
+                    <hr>
+                    <span style="font-size: 12px;">0 views </span> &nbsp&nbsp&nbsp <span style="font-size: 12px;"> 0 comments</span>
+                    <span style="font-size: 12px;float: right;" >2<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#EA3323"><path d="m480-144-50-45q-100-89-165-152.5t-102.5-113Q125-504 110.5-545T96-629q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51.5 89q-37.5 49-103 113.5T528-187l-48 43Zm0-97q93-83 153-141.5t95.5-102Q764-528 778-562t14-67q0-59-40-99t-99-40q-35 0-65.5 14.5T535-713l-35 41h-40l-35-41q-22-26-53.5-40.5T307-768q-59 0-99 40t-40 99q0 33 13 65.5t47.5 75.5q34.5 43 95 102T480-241Zm0-264Z"/></svg></span>
+              </div>
+          </div>
+    </div>
+           <div class="container" style="margin-top: 0px;">
+               <div class="row">
+                   <div class="col" style="padding: 5px;">
+                       <img src=https://static.wixstatic.com/media/225c6d40087d44488cc67f1417e259c7.jpeg/v1/fill/w_925,h_616,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/225c6d40087d44488cc67f1417e259c7.jpeg height="350px" width="475px">
+               
+                      
+                   </div>
+              
+                   <div class="col" style="padding:20px ">
+                       <img src="https://img.icons8.com/?size=50&id=7819&format=png&color=737373" alt="">
+                       <span style="font-size: 12px;">Admin  </span><span style="font-size: 12px;">Jun 3, 2023- 1 min</span>
+                       <div class="txt"><p style="font-size: 28px; font-style: bold;">Bring light into your life</p>
+
+                          <p style="font-size: 16px;"> Create a blog post subtitle that summarizes your post in a few short,
+                            punchy sentences and entices your audience to continue reading....</p></div><br><br> <br>
+                            <hr>
+                            <span style="font-size: 12px;">0 views </span> &nbsp&nbsp&nbsp <span style="font-size: 12px;"> 0 comments</span>
+                            <span style="font-size: 12px;float: right;" >1<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#EA3323"><path d="m480-144-50-45q-100-89-165-152.5t-102.5-113Q125-504 110.5-545T96-629q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51.5 89q-37.5 49-103 113.5T528-187l-48 43Zm0-97q93-83 153-141.5t95.5-102Q764-528 778-562t14-67q0-59-40-99t-99-40q-35 0-65.5 14.5T535-713l-35 41h-40l-35-41q-22-26-53.5-40.5T307-768q-59 0-99 40t-40 99q0 33 13 65.5t47.5 75.5q34.5 43 95 102T480-241Zm0-264Z"/></svg></span>
+                   </div>
+               </div>
+            </div>
+   </div>  
+     <!-- Section3 End-->
+   
+
+               <!-- Pagination -->
+                <center>
+               <!-- <div > -->
+                <ul class="pagination" style="position:relative;">
+                <a href="#"><</a>
+                <a href="#"  ng-click="showContent(1)" >1</a>
+                <a href="#"  ng-click="showContent(2)" >2</a>
+                <a href="#"  ng-click="showContent(3)" >3</a>
+                <a href="#">></a>
+            </ul>
+              <!-- </div> -->
+            </center>
+        </div>    
+
+
+<!-- Contacts -->
+
+<div class="contact" id="contact" style="position: relative;">
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+              <div class="container1">
+                <h1 style="margin-left: 220px;">___</h1>
+                  <h5 style="margin-left: 220px;">CONTACT</h5><br><br>
+                  <span style="margin-left: 220px;">500 Terry Francine Street,</span>
+                 <br>
+                 <span style="margin-left: 220px;">San Francisco, CA 94158</span> <br> <br>
+                 <span style="margin-left: 220px;">Tel: 123-456-7890</span> <br>
+                 <span style="margin-left: 220px;">Fax: 123-456-7890</span><br> <br>
+                 <span  class="info"  style="margin-left: 220px;"> <a href="mailto:hege@example.com" style="color: black; text-decoration: none;">
+                  info@mysite.com </a></span>
+              <br><br>
+              <span class="info"  style="margin-left: 220px;"> <a href="https://www.facebook.com/wix" style="color: black;">
+              <i class='bx bxl-facebook' style="font-size: 25px;"></i> </a></span>
+              <span class="info"> <a href="https://x.com/wix" style="color: black;"><i class='bx bxl-twitter'style="font-size: 25px;"></i></a></span>
+              <span class="info"> <a href="https://www.instagram.com/wix/" style="color: black;"><i class='bx bxl-instagram' style="font-size: 25px;"></i> </a></span>
+              <span class="info"> <a href="https://www.youtube.com/user/Wix" style="color: black;"><i class='bx bxl-youtube' style="font-size: 25px;"></i></a></span> <br><br><br>
+              <span style="margin-left: 220px;">  © 2035 by Personal Life Coach. <br>
+                 <span style="margin-left: 220px;">Powered and secured by </span>
+                <a href="https://www.wix.com/?utm_campaign=vir_created_with" style="color: black;">Wix</a></span>
+              </div>
+          </div>
+     
+          <div class="col" style="padding: 70px;">
+             
+              <form action="">
+            <label for="" style="font-size: 18px;">Enter Your Name</label> <br>
+             <input  class="inputbox" type="text" name="name" id="name" style="height: 40px;width: 400px;">    <br>        
+             <label for="" style="font-size: 18px;">Enter Your Email *</label> <br>
+             <input  class="inputbox"  type="email" name="email" id="email" required style="height: 40px;width: 400px;">    <br>  
+             <label for="" style="font-size: 18px;">Enter Your Subject</label> <br>
+             <input   class="inputbox" type="text" name="subject" id="subject" required style="height: 40px;width: 400px;">    <br> 
+             <label for="" style="font-size: 18px;">Message</label> <br>
+             <input  class="inputbox" type="text" name="msg" id="msg"  style="height: 150px;width: 400px;"> <br>   <br>    
+             
+             <input  class="submitbox" type="submit" name="submit" value="Submit" style="height: 40px;width: 150px;">
+              </form>
+          </div>
+      </div>
+  </div>
+  </div>
+
+    </div>
+</body>
+
+</html>
